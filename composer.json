@@ -1,0 +1,23 @@
+{
+    "name": "tolkam/routing-adapter-aura",
+    "description": "Aura.Router adapter for tolkam/routing component",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Kanstantsin Kulesh",
+            "email": "kk@tolkam.com",
+            "homepage": "https://www.tolkam.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tolkam\\Routing\\Adapter\\Aura\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "tolkam/routing": "^2.0",
+        "aura/router": "^3.2"
+    }
+}
